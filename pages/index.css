@@ -16,7 +16,7 @@
   flex-direction: column;
   height: 100vh;
   min-height: 720px;
-  max-height: 880px;
+  max-height: 1200px;
   padding: 0;
   position: relative;
   box-sizing: border-box;
@@ -108,11 +108,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 100px 0 140px;
 }
 
-.recipes__subtitle {
+.recipes__title {
   max-width: 580px;
-  margin: 100px 0 24px 80px;
+  padding: 100px 0 24px 80px;
+  margin: 0;
 }
 .recipes__title-text {
   font-weight: 500;
