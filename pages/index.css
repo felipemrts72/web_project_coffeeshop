@@ -14,13 +14,13 @@
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-  padding: 30px 80px 40px;
+  padding: 0;
   position: relative;
   box-sizing: border-box;
-}
-.header__image {
   background-color: #ffffff;
+  background-image: url("../images/background_header.svg");
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -37,9 +37,7 @@
   display: flex;
   column-gap: 20px;
   list-style-type: none;
-  margin: 0;
-  margin-top: 30px;
-  margin-right: 80px;
+  margin: 30px 80px 0 0;
   padding: 0px;
 }
 
@@ -47,4 +45,22 @@
   color: #000000;
   text-decoration: none;
   font-weight: bold;
+}
+
+.header__title {
+  margin: 183px 0 28px 80px;
+  max-width: 709px;
+}
+
+.header__description {
+  margin: 28px 0 0 80px;
+  max-width: 683px;
+}
+
+.header__image {
+  position: absolute;
+  width: 646px;
+  height: 568px;
+  top: 124px;
+  right: 5px;
 }
