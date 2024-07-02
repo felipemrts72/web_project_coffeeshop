@@ -149,7 +149,67 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h3 class="reservation__title">Reservar uma mesa</h3>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Nome *</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form__item"
+                placeholder="Nome"
+                required
+              />
+              <label for="invite-number" class="form__label"
+                >Número de convidados *</label
+              >
+              <input
+                type="number"
+                id="invite-number"
+                name="invite-number"
+                class="form__item"
+                max="8"
+                min="1"
+                placeholder="1-8"
+                required
+              />
+              <label for="date-time" class="form__label">Data e hora *</label>
+              <input
+                type="datetime-local"
+                name="data-time"
+                class="form__item"
+                id="date-time"
+                required
+              />
+              <label for="email" class="form__label">Seu e-mail *</label>
+              <input
+                type="email"
+                class="form__item"
+                id="email"
+                name="email"
+                placeholder="email@email.com"
+                required
+              />
+              <button type="submit" class="form__submit" name="book" id="book">
+                Reservar uma mesa
+              </button>
+              <div class="form__terms-box">
+                <input
+                  type="checkbox"
+                  name="terms-acept"
+                  id="terms-acept"
+                  class="form__terms"
+                  required
+                />
+                <label for="terms-acept" class="form__label">
+                  Eu concordo com os termos de uso</label
+                >
+              </div>
+            </fieldset>
+          </form>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>
