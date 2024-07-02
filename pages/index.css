@@ -159,10 +159,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0 140px;
+  padding: 100px 0 120px;
 }
 .reservation__form {
-  margin: 0 0 120px 0;
+  margin: auto;
 }
 
 .form {
@@ -174,7 +174,7 @@
   font-size: 44px;
   line-height: 52px;
   text-align: center;
-  margin: 100px auto 80px;
+  margin: 0px auto 80px;
 }
 
 .form__fieldset {
