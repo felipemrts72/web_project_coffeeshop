@@ -76,7 +76,7 @@
   column-gap: 10px;
 }
 
-.footer__social-link:focus {
+.footer__social-link:hover {
   color: #c1c1c1;
 }
 
