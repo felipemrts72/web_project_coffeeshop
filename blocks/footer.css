@@ -76,6 +76,9 @@
   column-gap: 10px;
 }
 
+.footer__social-link:focus {
+  color: #c1c1c1;
+}
 .footer__social-link:hover {
   color: #c1c1c1;
 }
