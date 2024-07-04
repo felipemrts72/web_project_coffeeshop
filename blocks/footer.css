@@ -3,6 +3,7 @@
   position: relative;
   padding: 60px 80px;
   color: white;
+  overflow: hidden;
 }
 .footer__content {
   display: flex;
